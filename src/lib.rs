@@ -13,7 +13,7 @@ mod contract;
 mod error;
 pub mod msg;
 #[cfg(any(test, feature = "tests"))]
-mod multitest;
+pub mod multitest;
 mod state;
 
 // called when created for the first time
