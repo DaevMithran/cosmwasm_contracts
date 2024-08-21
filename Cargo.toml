@@ -1,0 +1,13 @@
+[package]
+name = "tic_tac_toe_contract"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+cosmwasm-schema = "2.1.0"
+cosmwasm-std = "2.1.0"
+cw-storage-plus = "2.0.0"
+thiserror = "1.0.63"
